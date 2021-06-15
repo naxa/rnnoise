@@ -9,5 +9,3 @@ file(GLOB RN_SRC
 )
 
 add_library(rnnoise STATIC ${RN_SRC})
-add_library(rnnoise_shared SHARED ${RN_SRC})
-
